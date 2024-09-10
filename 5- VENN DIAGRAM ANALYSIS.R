@@ -231,7 +231,7 @@ for (med in names(genera_list)) {
 
 
 
-############################################# COMMON TO ALL MEDICATION COMPARISION
+############################################# COMMON TO ALL COMPARISION
 
 # Find ASVs common to all groups
 common_all_groups <- Reduce(intersect, otu_list)
